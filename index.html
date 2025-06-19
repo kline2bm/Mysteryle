@@ -22,12 +22,14 @@ https://html-preview.github.io/?url=
     <section id="$about">
       <p id="aboutP">
         Mysteryle<br>
+        ˈmɪstəriʊl<br>
         Mys•ter•y•le<br>
         MISS-ter-ee-ull<br>
         <br>
         This is a game based on Wordle, but each day has its own twist rather than its own answer.<br>
         You can play the game more than once on the same day, and you are almost gauranteed to get a different answer, but the twist is the same.<br>
         Can you figure out each day's twist? Some of them may be based on other Wordle-inspired games.
+        Five greens and winning do not necessarily imply each other; the game will tell you if you win.
         The hint button will present a normal Wordle where the answer is the five-letter hint for the twist.<br>
         You can play any day's twist, or you can specify the associated word (i.e. the hint) to play that twist.<br>
         <br>
@@ -44,12 +46,31 @@ https://html-preview.github.io/?url=
     </section>
     <hr>
     <section id="$settings">
+      Text Color <input type="color" id="txC"></input><br>
+      Background Color <input type="color" id="bgC"></input><br>
+      Correct Tile Color <input type="color" id="ctC"></input><br>
+      Misplaced Tile Color <input type="color" id="mtC"></input><br>
+      Wrong Tile Color <input type="color" id="wtC"></input><br>
+      Hidden Tile Color <input type="color" id="htC"></input><br>
+      Tile Reveal Speed <select id="tileSpeed">
+        <option>Instant</option>
+        <option>Fast</option>
+        <option>Medium</option>
+        <option>Slow</option>
+      </select>
     </section>
     <hr>
     <section id="$gamePick">
+      <input type="date" id="gameDate"></input>
+      <button>Play This Day's Game</button><br>
+      <input id="gameWord"></input>
+      <button>Play This Word's Game</button><br>
     </section>
     <hr>
     <section id="$gamePlay">
+      <textarea placeholder="You can use this textarea for notes. None of the games use this textarea in any way."></textarea>
+      <p id="GAMEBOARD"></p>
+      <button id="resetB">Reset Game</button>
     </section>
   </body>
 </html>
