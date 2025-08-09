@@ -43,7 +43,7 @@ const BIRTHDAYS = [
   [30, "Wisteria"]
   // August
   [
-    [4, "Ambrose"],
+    [4, "Ambrose"], [8, "Testing Tester"],
     [10, "Yura (Chameleon)"],
     [25, "Piatato"],
     [26, "Dumediat"],
