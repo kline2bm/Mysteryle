@@ -77,5 +77,6 @@ const BIRTHDAYS = [
     [9, "TheAsylm"],
     [14, "Virtual"],
     [30, "Sfushidahardy"]
+  ]
 ];
 // TODO
