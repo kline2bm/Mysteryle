@@ -79,4 +79,12 @@ const BIRTHDAYS = [
     [30, "Sfushidahardy"]
   ]
 ];
-// TODO
+let today = new Date();
+let month = BIRTHDAYS[today.getMonth()];
+for(day of month) {
+  if(day[0] == today.getDate()) {
+    _birthday.style.setProperty("display", "block");
+    _birthday.querySelector("span").innerText = day[1];
+    break;
+  }
+}
