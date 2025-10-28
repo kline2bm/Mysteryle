@@ -36,14 +36,16 @@ const BIRTHDAYS = [
     [20, "Sven (Killroy)"]
   ],
   // July
-  [3, "Peachy and Rhonda"],
-  [4, "Solver Tom"],
-  [7, "I Love Sleeping - Leeor"],
-  [10, "Matt y Ddraig"],
-  [30, "Wisteria"]
+  [
+    [3, "Peachy and Rhonda"],
+    [4, "Solver Tom"],
+    [7, "I Love Sleeping - Leeor"],
+    [10, "Matt y Ddraig"],
+    [30, "Wisteria"]
+  ],
   // August
   [
-    [4, "Ambrose"], [8, "Testing Tester"],
+    [4, "Ambrose"],
     [10, "Yura (Chameleon)"],
     [25, "Piatato"],
     [26, "Dumediat"],
@@ -64,7 +66,6 @@ const BIRTHDAYS = [
     [14, "Timotab"],
     [16, "Chilly"],
     [26, "mnasti2"],
-    [28, "testing"]
   ],
   // November
   [
@@ -80,11 +81,9 @@ const BIRTHDAYS = [
     [30, "Sfushidahardy"]
   ]
 ];
-function DEBUG() {console.debug(...arguments); return arguments[0];}
-let today = DEBUG("today", new Date() );
-let month = DEBUG("month", BIRTHDAYS[today.getMonth()] );
+let today = new Date();
+let month = BIRTHDAYS[today.getMonth()];
 for(day of month) {
-  DEBUG("day", day );
   if(day[0] == today.getDate()) {
     _birthday.style.setProperty("display", "block");
     _birthday.querySelector("span").innerText = day[1];
