@@ -62,8 +62,9 @@ const BIRTHDAYS = [
   [
     [11, "RockyRoer"],
     [14, "Timotab"],
-    [16, "Chilly"]
-    [26, "mnasti2"]
+    [16, "Chilly"],
+    [26, "mnasti2"],
+    [28, "testing"]
   ],
   // November
   [
