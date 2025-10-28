@@ -80,9 +80,11 @@ const BIRTHDAYS = [
     [30, "Sfushidahardy"]
   ]
 ];
-let today = new Date();
-let month = BIRTHDAYS[today.getMonth()];
+function DEBUG() {console.debug(...arguments); return arguments[0];}
+let today = DEBUG("today", new Date() );
+let month = DEBUG("month", BIRTHDAYS[today.getMonth()] );
 for(day of month) {
+  DEBUG("day", day );
   if(day[0] == today.getDate()) {
     _birthday.style.setProperty("display", "block");
     _birthday.querySelector("span").innerText = day[1];
