@@ -1,14 +1,112 @@
+ABACK
+the answer and valid guesses are reversed
+
+ALPHA
+no keyboard; shuffled list of NATO words without initial letter on buttons (another word alphabet can be used)
+
+ALTER
+odd guesses for one answer, even guesses for another answer, both must be guessed
+
 BIBLE
 the answer is a Bible verse
 
 COLOR
 the meanings of green, yellow, and gray are swapped
 
+COVER
+cover some letters (1-4)
+
+CYCLE
+the answer moves forward in the list upon each guess
+
+DELAY
+each guess has coloring of previous guess
+
+DEUCE
+two answers simultaneously with same guesses
+
+FIRST*
+April Fools Day on odd years
+first guess is correct
+
+FLUKE
+one letter in guess is changed (implement a vulgar word detector; you don't want the first letter of Ducks to be changed to Foxtrot)
+
+FUSED
+each guess has a different twist
+
+GREEN
+show yellow as gray
+
+GUESS
+coloring as if guess and answer are swapped
+
+HARSH
+each guess can't be possible based on the previous guess (or prev. two or three)
+
 HELLO
 hello world program
 
+HIDES
+put ***** for each guess, but coloring is normal for the actual guess
+
+JOINT
+pair letters, guess + others in pairs, green if either is here, yellow if either is elsewhere (neither is here), gray if neither is anywhere
+
+LEAPT*
+Leap Day
+several boards, different answers, some have a twist
+
+LIARS
+one letter for each guess has wrong clue
+
+LIMIT
+normal Wordle, limit to six guesses
+
+LOVER*
+Valentine's Day
+each guess is followed by another guess
+
 MUSIC
-RFMR
+Royalty Free Music Repertoire (or union with Miscellaneous Music playlist if possible)
+
+PEAKS
+yellow: answer letter is later, gray: answer letter is earlier
+
+PROXY
+yellow is adjacent to answer letter on QWERTY keyboard
 
 RACER
 a bot is solving at the same time; the player must beat the bot; adjust bot speed based on player success (faster) or failure (slower)
+
+RIGHT
+the coloring is for the letter on the right (with wrapping), then that moves right (e.g. indices indicated go 12340, 23401, 34012, 40123, 01234)
+
+SCARY*
+Halloween
+add scary/spooky elements to the game
+
+SHAPE
+Polygonle with symbols and three words
+
+SHIFT
+Caesar
+
+SHUNT
+##ABCDE, #ABCDE#, or ABCDE##
+
+TIMER
+if guess too quickly, show seconds remaining
+
+TROLL*
+April Fools Day on even years
+random colors, can't win
+
+TWICE
+guess a word twice to get information
+
+WRONG
+avoid the answer, must use clues, six guesses, show count of valid words remaining
+
+XEROX
+Xordle
