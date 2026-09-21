@@ -1,1 +1,14 @@
-//...
+BIBLE
+the answer is a Bible verse
+
+COLOR
+the meanings of green, yellow, and gray are swapped
+
+HELLO
+hello world program
+
+MUSIC
+RFMR
+
+RACER
+a bot is solving at the same time; the player must beat the bot; adjust bot speed based on player success (faster) or failure (slower)
