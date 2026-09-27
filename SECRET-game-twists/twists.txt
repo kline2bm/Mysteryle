@@ -29,6 +29,9 @@ FIRST*
 April Fools Day on odd years
 first guess is correct
 
+FIVES
+no colors; show three digits in some order: # greens, # yellows, # grays
+
 FLUKE
 one letter in guess is changed (implement a vulgar word detector; you don't want the first letter of Ducks to be changed to Foxtrot)
 
@@ -85,6 +88,9 @@ the coloring is for the letter on the right (with wrapping), then that moves rig
 SCARY*
 Halloween
 add scary/spooky elements to the game
+
+SCORE
+no colors; show number: 2*greens + yellows
 
 SHAPE
 Polygonle with symbols and three words
