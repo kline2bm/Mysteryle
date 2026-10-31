@@ -16,6 +16,9 @@ the meanings of green, yellow, and gray are swapped
 COVER
 cover some letters (1-4)
 
+CRUEL
+each guess can't be possible based on the previous guess (or prev. two or three)
+
 CYCLE
 the answer moves forward in the list upon each guess
 
@@ -44,9 +47,6 @@ show yellow as gray
 GUESS
 coloring as if guess and answer are swapped
 
-HARSH
-each guess can't be possible based on the previous guess (or prev. two or three)
-
 HELLO
 hello world program
 
@@ -59,6 +59,9 @@ pair letters, guess + others in pairs, green if either is here, yellow if either
 LEAPT*
 Leap Day
 several boards, different answers, some have a twist
+
+LEFTY
+the coloring is for the letter on the left (with wrapping), then that moves left (e.g. indices indicated go 40123, 34012, 23401, 12340, 01234)
 
 LIARS
 one letter for each guess has wrong clue
