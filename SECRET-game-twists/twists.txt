@@ -38,6 +38,9 @@ no colors; show three digits in some order: # greens, # yellows, # grays
 FLUKE
 one letter in guess is changed (implement a vulgar word detector; you don't want the first letter of Ducks to be changed to Foxtrot)
 
+FOXES
+FoxiMax
+
 FUSED
 each guess has a different twist
 
