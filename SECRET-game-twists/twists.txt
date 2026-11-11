@@ -35,6 +35,9 @@ first guess is correct
 FIVES
 no colors; show three digits in some order: # greens, # yellows, # grays
 
+FLIPS
+two answers simultaneously, right is flipped
+
 FLUKE
 one letter in guess is changed (implement a vulgar word detector; you don't want the first letter of Ducks to be changed to Foxtrot)
 
